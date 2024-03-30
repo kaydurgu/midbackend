@@ -16,9 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from women.views import WomenAPIView
+from women.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("api/vi/womenlist/", WomenAPIView.as_view())
+    path("api/vi/womenlist/", WomenAPIList.as_view()),
+    path('api/vi/womenlist_update_data/<int:pk>/', WomenAPIUpdate.as_view()),
+    path('api/vi/womendetail/<int:pk>/', WomenAPIDetailView.as_view()),
+    path('api/vi/catergorylist/', CaregoryAPIView.as_view()),
+    path('api/vi/catergory_update_data/<int:pk>', CategoryAPIUpdate.as_view()),
 ]
