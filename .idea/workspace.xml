@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f483672-d85d-42c2-9fbf-a41cb86b3585" name="Changes" comment="" />
+    <list default="true" id="8f483672-d85d-42c2-9fbf-a41cb86b3585" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/women/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/women/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/women/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/women/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/women/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +96,7 @@
       <workItem from="1711777446026" duration="1786000" />
       <workItem from="1711779418376" duration="2378000" />
       <workItem from="1711788425656" duration="673000" />
-      <workItem from="1711789125501" duration="2341000" />
+      <workItem from="1711789125501" duration="4388000" />
     </task>
     <servers />
   </component>
@@ -101,7 +108,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
